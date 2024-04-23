@@ -1,0 +1,132 @@
+2024-04-23 21:28:10 INFO ====== WebDriver manager ======
+2024-04-23 21:28:11 INFO Get LATEST chromedriver version for google-chrome
+2024-04-23 21:28:11 INFO Get LATEST chromedriver version for google-chrome
+2024-04-23 21:28:11 INFO Driver [C:\Users\Victus\.wdm\drivers\chromedriver\win64\123.0.6312.122\chromedriver-win32/chromedriver.exe] found in cache
+2024-04-23 21:28:13 INFO Test 1 Starting
+2024-04-23 21:28:14 INFO Send test to element login form
+2024-04-23 21:28:14 INFO Send test to element pasword form
+2024-04-23 21:28:15 INFO Test 2 Starting
+2024-04-23 21:28:16 INFO Send arpamipa8844444 to element login form
+2024-04-23 21:28:16 INFO Send 94409a67f2 to element pasword form
+2024-04-23 21:28:17 INFO Test3 Stsrting
+2024-04-23 21:28:17 INFO Send NEW POST to element title form
+2024-04-23 21:28:17 INFO Send MY NEW WORK. to element description form
+2024-04-23 21:28:17 INFO Send NEW NAILS , 2024 TRENDS. to element content form
+2024-04-23 21:28:21 INFO Test Contact_us Starting
+2024-04-23 21:28:21 INFO Send arpamipa8844444 to element contact name form
+2024-04-23 21:28:21 INFO Send armpapanyanh@gmail.com to element contact email form
+2024-04-23 21:28:21 INFO Send Hello World! to element contact content form
+2024-04-23 21:28:22 INFO Get alert message
+2024-04-23 21:28:23 INFO Alert message is Form successfully submitted
+2024-04-23 21:28:23 INFO Test About Page Starting
+2024-04-23 21:28:23 INFO Test2 Starting
+2024-04-23 21:28:23 INFO Send arpamipa8844444 to element login form
+2024-04-23 21:28:33 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\Victus\Desktop\selenium\fin_work\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Victus\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="login"]/div[1]/label/input')
+Stacktrace:
+	GetHandleVerifier [0x00544CA3+225091]
+	(No symbol) [0x00474DF1]
+	(No symbol) [0x00319A7A]
+	(No symbol) [0x0035175B]
+	(No symbol) [0x0035188B]
+	(No symbol) [0x00387882]
+	(No symbol) [0x0036F5A4]
+	(No symbol) [0x00385CB0]
+	(No symbol) [0x0036F2F6]
+	(No symbol) [0x003479B9]
+	(No symbol) [0x0034879D]
+	sqlite3_dbdata_init [0x009B9A43+4064547]
+	sqlite3_dbdata_init [0x009C104A+4094762]
+	sqlite3_dbdata_init [0x009BB948+4072488]
+	sqlite3_dbdata_init [0x006BC9A9+930953]
+	(No symbol) [0x004807C4]
+	(No symbol) [0x0047ACE8]
+	(No symbol) [0x0047AE11]
+	(No symbol) [0x0046CA80]
+	BaseThreadInitThunk [0x76457BA9+25]
+	RtlInitializeExceptionChain [0x775ABDAB+107]
+	RtlClearBits [0x775ABD2F+191]
+
+2024-04-23 21:28:33 ERROR Element ('xpath', '//*[@id="login"]/div[1]/label/input') not found
+2024-04-23 21:28:33 INFO Send 94409a67f2 to element pasword form
+2024-04-23 21:28:44 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\Victus\Desktop\selenium\fin_work\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Victus\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="login"]/div[2]/label/input')
+Stacktrace:
+	GetHandleVerifier [0x00544CA3+225091]
+	(No symbol) [0x00474DF1]
+	(No symbol) [0x00319A7A]
+	(No symbol) [0x0035175B]
+	(No symbol) [0x0035188B]
+	(No symbol) [0x00387882]
+	(No symbol) [0x0036F5A4]
+	(No symbol) [0x00385CB0]
+	(No symbol) [0x0036F2F6]
+	(No symbol) [0x003479B9]
+	(No symbol) [0x0034879D]
+	sqlite3_dbdata_init [0x009B9A43+4064547]
+	sqlite3_dbdata_init [0x009C104A+4094762]
+	sqlite3_dbdata_init [0x009BB948+4072488]
+	sqlite3_dbdata_init [0x006BC9A9+930953]
+	(No symbol) [0x004807C4]
+	(No symbol) [0x0047ACE8]
+	(No symbol) [0x0047AE11]
+	(No symbol) [0x0046CA80]
+	BaseThreadInitThunk [0x76457BA9+25]
+	RtlInitializeExceptionChain [0x775ABDAB+107]
+	RtlClearBits [0x775ABD2F+191]
+
+2024-04-23 21:28:44 ERROR Element ('xpath', '//*[@id="login"]/div[2]/label/input') not found
+2024-04-23 21:28:44 INFO Test3 Starting
+2024-04-23 21:28:54 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\Victus\Desktop\selenium\fin_work\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Victus\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-btn"]')
+Stacktrace:
+	GetHandleVerifier [0x00544CA3+225091]
+	(No symbol) [0x00474DF1]
+	(No symbol) [0x00319A7A]
+	(No symbol) [0x0035175B]
+	(No symbol) [0x0035188B]
+	(No symbol) [0x00387882]
+	(No symbol) [0x0036F5A4]
+	(No symbol) [0x00385CB0]
+	(No symbol) [0x0036F2F6]
+	(No symbol) [0x003479B9]
+	(No symbol) [0x0034879D]
+	sqlite3_dbdata_init [0x009B9A43+4064547]
+	sqlite3_dbdata_init [0x009C104A+4094762]
+	sqlite3_dbdata_init [0x009BB948+4072488]
+	sqlite3_dbdata_init [0x006BC9A9+930953]
+	(No symbol) [0x004807C4]
+	(No symbol) [0x0047ACE8]
+	(No symbol) [0x0047AE11]
+	(No symbol) [0x0046CA80]
+	BaseThreadInitThunk [0x76457BA9+25]
+	RtlInitializeExceptionChain [0x775ABDAB+107]
+	RtlClearBits [0x775ABD2F+191]
+
+2024-04-23 21:28:54 INFO Send NEW POST to element title form
+2024-04-23 21:28:54 INFO Send MY NEW WORK. to element description form
+2024-04-23 21:28:54 INFO Send NEW NAILS , 2024 TRENDS. to element content form
+2024-04-23 21:28:58 INFO Test Contact_us Starting
+2024-04-23 21:28:58 INFO Send arpamipa8844444 to element contact name form
+2024-04-23 21:28:58 INFO Send armpapanyanh@gmail.com to element contact email form
+2024-04-23 21:28:58 INFO Send Hello World! to element contact content form
+2024-04-23 21:28:59 INFO Get alert message
+2024-04-23 21:28:59 INFO Alert message is Form successfully submitted
